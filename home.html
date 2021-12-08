@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Resume</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
@@ -17,8 +17,8 @@
         </nav>
     </header>
 
-    <div>
-        <section>
+    <div id="mainCon">
+        <section id="navcon">
             <h3 style="color: cornflowerblue; padding: 10%; text-align: center;" id="PersonalBio">Personal Bio</h3>
             <nav>
                 <a href="#Education" style="padding-right: 10%;">Education</a>
@@ -34,25 +34,31 @@
             <hr>
         </section>
 
-        <section>
+        <section id="Ed">
             <h3 style="color: forestgreen; padding: 10%; text-align: center;" id="Education">Educcation</h3>
-         <ul>
-                <li>Hewwo</li>
-                <li>SLCC</li>
-         </ul>
+                <table>
+                    <tr>
+                        <th>University</th>
+                        <th>Degree</th>
+                    </tr>
+                    <tr>
+                         <td>SLCC</td>
+                        <td>Whose to say</td>
+                    </tr>
+                </table>
          <hr>
         </section>
 
-        <section>
+        <section id="tchie">
             <h3 style="padding: 10%; color: blue; text-align: center;" id="Techski">Technical Skill</h3>
-            <ol>
-                <li>Graphic Design</li>
+                <ol>
+                    <li>Graphic Design</li>
                     <li>Clip Studio Art</li>
-            </ol>
+                </ol>
             <hr>
         </section>
 
-        <section>
+        <section id="Corecop">
             <h3 style="color: crimson; text-align: center;" id="CoreCo">Core Comptencies</h3>
                 <ol>
                     <li>Spanish Speaker</li>
@@ -64,7 +70,7 @@
                 <hr>
         </section>
 
-        <section>
+        <section id="cerpot">
             <h3 style="color: gold; text-align: center;" id="Cert">Certificates and Awards</h3>
                 <ol>
                     <li>Early Childhood Eductaion</li>
@@ -73,12 +79,12 @@
                 <hr>
         </section>
 
-        <section>
+        <section id="epof">
             <h3 style="color: hotpink; text-align: center;" id="Epor">ePortfolio of Projects</h3>
                 <hr>
         </section>
 
-        <section>
+        <section id="refs">
             <h3 style="color: indianred; text-align: center;" id="ref">References and Testimonials</h3>
                 <ol>
                     <li>My Mom</li>
@@ -86,7 +92,7 @@
                 <hr>
         </section>
     </div>
-    <div>
+    <div id="tabl">
         <table>
             <tr>
                 <thead>
@@ -109,5 +115,6 @@
 </body>
 <footer>
    <p>Tracy Fraatz | 2021</p> 
+   <p><a href="contact.html" target="_self">Contact Me</a></p>
 </footer>
 </html>
