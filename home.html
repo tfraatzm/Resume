@@ -6,60 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav id="navBar" style="background:cornflowerblue;">
-            <a href="home.html" title="Home" target="_self" style="padding-right: 10%;color: cornsilk;">Home</a>
-            <a href="contact.html" target="_self" title="Contact Me" style="padding-right: 10%; color: cornsilk;">Contact Me</a>
-            <a href="aboutme.html" title="About Me" target="_self" style="padding-right: 10%;color: cornsilk;">About Me</a>
-            <a href="Images/Resume outline.pdf" target="_blank" title="Resume PDF" style="padding-right: 10%;color: cornsilk;">Resume PDF File</a>
+        <nav id="navBar" style="background-color: cornflowerblue;">
+            <a href="home.html" class="navbar" title="Home" target="_self" style="padding-right: 10%;color: cornsilk;">Home</a>
+            <a href="contact.html" class="navbar" target="_self" title="Contact Me" style="padding-right: 10%; color: cornsilk;">Contact Me</a>
+            <a href="aboutme.html" class="navbar" title="About Me" target="_self" style="padding-right: 10%;color: cornsilk;">About Me</a>
+            <a href="Images/Resume outline.pdf" class="navbar" target="_blank" title="Resume PDF" style="padding-right: 10%;color: cornsilk;">Resume PDF File</a>
         </nav>
     </header>
-
+    <hr>
     <div id="mainCon">
-        <section id="navcon">
-            <h3 style="color: cornflowerblue; padding: 10%; text-align: center;" id="PersonalBio">Personal Bio</h3>
-            <nav>
+        <div id="navCon">
+            <nav id="conNav">
                 <a href="#Education" style="padding-right: 10%;">Education</a>
-                <a href="#Techski" style="padding-right: 10%;">Technical Skills</a>
-                <a href="#CoreCo" style="padding-right: 10%;">Core Competancies</a>
-                <a href="#Cert" style="padding-right: 10%;">Certificates and Awards</a>
-                <a href="#Epor" style="padding-right: 10%;"> ePortfolio of Projects</a>
-                <a href="#ref" style="padding-right: 10%;">References and Testimonials</a>
+                <a href="#TechSkills" style="padding-right: 10%;">Technical Skills</a>
+                <a href="#CoreComptencies" style="padding-right: 10%;">Core Competancies</a>
+                <a href="#Certificates" style="padding-right: 10%;">Certificates and Awards</a>
+                <a href="#ePortfolio" style="padding-right: 10%;"> ePortfolio of Projects</a>
+                <a href="#References" style="padding-right: 10%;">References and Testimonials</a>
             </nav>
+                    <hr>
+        </div>
+        <div>
+            <h3 style="text-align: center;" id="PersonalBio">Personal Bio</h3>
                 <p>Tracy Fraatz</p>
                 <p>Student</p>
                 <p>Currently learning HTML</p>
-            <hr>
-        </section>
+        </div>
 
-        <section id="Ed">
-            <h3 style="color: forestgreen; padding: 10%; text-align: center;" id="Education">Educcation</h3>
-                <table>
+        <div id="Ed">
+            <h3 style="text-align: center;" id="Education">Education</h3>
+                <table class="center">
                     <tr>
                         <th>University</th>
                         <th>Degree</th>
                     </tr>
                     <tr>
-                         <td>SLCC</td>
+                        <td>SLCC</td>
                         <td>Whose to say</td>
                     </tr>
                 </table>
-         <hr>
-        </section>
+        </div>
 
-        <section id="tchie">
-            <h3 style="padding: 10%; color: blue; text-align: center;" id="Techski">Technical Skill</h3>
+        <div id="tchie">
+            <h3 style="text-align: center;" id="TechnicalSkills">Technical Skill</h3>
                 <ol>
                     <li>Graphic Design</li>
                     <li>Clip Studio Art</li>
                 </ol>
-            <hr>
-        </section>
+        </div>
 
-        <section id="Corecop">
-            <h3 style="color: crimson; text-align: center;" id="CoreCo">Core Comptencies</h3>
+        <div id="Corecop">
+            <h3 style="text-align: center;" id="CoreComptencies">Core Comptencies</h3>
                 <ol>
                     <li>Spanish Speaker</li>
                     <li>Chinchilla Whisperer</li>
@@ -67,33 +70,29 @@
                     <li>Child Wrangler</li>
                     <img src="Images/Chin.jpg" alt="A chinchilla." width="300px">
                 </ol>
-                <hr>
-        </section>
+        </div>
 
-        <section id="cerpot">
-            <h3 style="color: gold; text-align: center;" id="Cert">Certificates and Awards</h3>
+        <div id="cerpot">
+            <h3 style="text-align: center;" id="Certificates">Certificates and Awards</h3>
                 <ol>
                     <li>Early Childhood Eductaion</li>
                     <li>Baby Certificate</li>
                 </ol>
-                <hr>
-        </section>
+            </div>
 
-        <section id="epof">
-            <h3 style="color: hotpink; text-align: center;" id="Epor">ePortfolio of Projects</h3>
-                <hr>
-        </section>
+        <div id="epof">
+            <h3 style="text-align: center;" id="ePortfolio">ePortfolio of Projects</h3>
+        </div>
 
-        <section id="refs">
-            <h3 style="color: indianred; text-align: center;" id="ref">References and Testimonials</h3>
+        <div id="refs">
+            <h3 style="text-align: center;" id="References">References and Testimonials</h3>
                 <ol>
                     <li>My Mom</li>
                 </ol>
-                <hr>
-        </section>
+        </div>
     </div>
     <div id="tabl">
-        <table>
+        <table class="center">
             <tr>
                 <thead>
                 <th>Name</th>
@@ -112,9 +111,11 @@
             </tr>
         </table>
     </div>
+    <div>
+        <footer>
+            <p>Tracy Fraatz | 2021</p> 
+            <p><a href="contact.html" target="_self">Contact Me</a></p>
+        </footer>
+    </div>
 </body>
-<footer>
-   <p>Tracy Fraatz | 2021</p> 
-   <p><a href="contact.html" target="_self">Contact Me</a></p>
-</footer>
 </html>
