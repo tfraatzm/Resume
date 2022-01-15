@@ -1,10 +1,11 @@
 body{
-    background-color: #ebf3fc;
+    background-color: white;
     font-family: 'Source Code Pro', monospace;
 }
 
 nav{
     text-align: center;
+    background-color: none;
 }
 
 #conNav{
@@ -23,15 +24,17 @@ a.navbar{
 hr{
     padding: 15px 0px;
     margin: 10px 0px;
+    color: white;
 }
 
-div#maincon{
-    width: 800px;
+div#mainCon{
+    padding: 15px;
 }
 
 h3{
     background-color: #a3c5ec;
-
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .center {
