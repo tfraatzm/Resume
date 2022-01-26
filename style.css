@@ -1,38 +1,49 @@
 body{
-    background-color: white;
+    background-color: #EEFFFF;
     font-family: 'Source Code Pro', monospace;
 }
 
-nav{
-    text-align: center;
-    background-color: none;
-}
-
-#conNav{
-    text-transform: uppercase;
+.navbar{
+    background-color: #1d3354;
+    overflow: auto;
+    height: 80px;
 }
 
 a{
+    text-align: center;
+    font-size: medium;
+}
+
+
+a.navbar{
+    color: #EEFFFF;
+}
+
+a:link{
     text-decoration: none;
 }
 
-a.navbar{
-    color: white;
-    padding: 50px;
+a:hover {
+    text-decoration: underline;
+    }
+
+a:active{
+    color: navy;
 }
+
 
 hr{
     padding: 15px 0px;
     margin: 10px 0px;
-    color: white;
+    color: #EEFFFF;
 }
 
-div#mainCon{
-    padding: 15px;
+#mainCon{
+    background-color: #EEFFFF;
 }
 
 h3{
-    background-color: #a3c5ec;
+    background-color: #9ED8DB;
     text-align: center;
     text-transform: uppercase;
 }
@@ -41,6 +52,12 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 table,
 tr,
@@ -51,8 +68,10 @@ tr{
 }
 
 footer{
-    background-color: cornflowerblue;
+    background: #1d3354;
     color: white;
     text-transform: uppercase;
     text-align: left;
+    width: 100%
 }
+
