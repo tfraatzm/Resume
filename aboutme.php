@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Index</title>
+    <title>About Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -26,13 +25,13 @@
         <div class="collapse navbar-collapse" id="navContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" target="_self" href="home.html">Resume</a>
+                    <a class="nav-link" target="_self" href="home.php">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutme.html" target="_self">About me</a>
+                    <a class="nav-link" href="aboutme.php" target="_self">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html" target="_self">Contact Me</a>
+                    <a class="nav-link" href="contact.php" target="_self">Contact Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="Images/Resume outline.pdf">Resume</a>
@@ -40,14 +39,56 @@
             </ul>
         </div>
     </nav>
-    <hr>
-    <div>
-        <p>Hi</p>
+    <hr class="bg-white">
+    <div id="content">
+        <h1 style="text-align: center;">Call my name to the wind!</h1>
     </div>
+    <div id="refs">
+        <h3 style="text-align: center;" id="References">References and Testimonials</h3>
+            <ol>
+                <li>My Mom</li>
+            </ol>
+            <?php
+   //Create array of skills
+    $mySkills = ['HTML', 'CSS', 'PHP'];
+
+    function skillList ($skillsArray){
+        echo '<ul>';
+        foreach($skillsArray as $value){
+            echo '<li>' . $value . '</li>';
+        }
+        echo '</ul>';
+    }
+
+    skillList($mySkills);
+
+            ?>
+    </div>
+</div>
+<div id="tabl">
+        <table class="center">
+            <tr>
+                <thead>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>Country</th>
+                <th>Favprite color</th>
+            </thead>
+            </tr>
+            <tr>
+                <tfoot>
+                <td>Tracy</td>
+                <td>Meza</td>
+                <td>Guatemala</td>
+                <td>Blue</td>
+            </tfoot>
+            </tr>
+        </table>
+</div>
     <div>
         <footer>
             <p>Tracy Fraatz | 2021</p>
-            <p><a href="contact.html" target="_self">Contact me!</a></p> 
+            <p><a href="contact.php" target="_self">Contact me!</a></p> 
         </footer>
     </div>
     <div>

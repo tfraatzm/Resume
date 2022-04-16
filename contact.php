@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Index</title>
+    <title>Contact Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,500;0,600;1,400;1,600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -26,13 +25,13 @@
         <div class="collapse navbar-collapse" id="navContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" target="_self" href="home.html">Resume</a>
+                    <a class="nav-link" target="_self" href="home.php">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutme.html" target="_self">About me</a>
+                    <a class="nav-link" href="aboutme.php" target="_self">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html" target="_self">Contact Me</a>
+                    <a class="nav-link" href="contact.php" target="_self">Contact Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="Images/Resume outline.pdf">Resume</a>
@@ -41,13 +40,44 @@
         </div>
     </nav>
     <hr>
-    <div>
-        <p>Hi</p>
+    <div class="col-sm-2"></div>
+    <div id="form" class="col-sm-8 text-center">
+        <form action="">
+                <label for="FirstName">First Name:</label>
+                <input type="text" name="" id="FirstName" class="form">
+                <p id="input"></p>
+    <br>
+    <br>
+                <label for="LastName">Last Name:</label>
+                <input type="text" name="" id="LastName" class="form">
+    <br>
+    <br>
+    <label for="contactBack">Can we Email you back?</label>
+    <br>
+                <label for="yes">Yes</label>
+                <input type="radio" name="contactt" id="yes">
+                <label for="no">No</label>
+                <input type="radio" name="contactt" id="no">
+    <br>
+    <br>
+                <label for="Email">Email:</label>
+                <input type="email">
+    <br>
+    <br>
+                <label for="comments">Comments:</label><br>
+                <textarea name="" id="" cols="30" rows="10" maxlength="300">Write your comment here.</textarea>
+    <br>
+    <br>
+                <input type="submit" onclick="myFunction()">
+    <br>
+    <br>
+        </form>
     </div>
+    <div class="col-sm-2"></div>
     <div>
         <footer>
-            <p>Tracy Fraatz | 2021</p>
-            <p><a href="contact.html" target="_self">Contact me!</a></p> 
+            <p>Tracy Fraatz | 2021</p> 
+            <p><a href="email">Write me!</a></p>
         </footer>
     </div>
     <div>

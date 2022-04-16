@@ -26,13 +26,13 @@
             <div class="collapse navbar-collapse" id="navContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" target="_self" href="home.html">Resume</a>
+                        <a class="nav-link" target="_self" href="home.php">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutme.html" target="_self">About me</a>
+                        <a class="nav-link" href="aboutme.php" target="_self">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html" target="_self">Contact Me</a>
+                        <a class="nav-link" href="contact.php" target="_self">Contact Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="Images/Resume outline.pdf">Resume</a>
@@ -104,7 +104,7 @@
             <footer class="container-fluid text-center navbar-dark">
                 <p>Tracy Fraatz | 2021</p> 
                 <p id="jspract"></p>
-                <p><a href="contact.html" target="_self">Contact Me</a></p>
+                <p><a href="contact.php" target="_self">Contact Me</a></p>
             </footer>
         </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

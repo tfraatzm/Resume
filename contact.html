@@ -40,45 +40,40 @@
         </div>
     </nav>
     <hr>
-    <div id="form">
+    <div class="col-sm-2"></div>
+    <div id="form" class="col-sm-8 text-center">
         <form action="">
-            <section id="names">
                 <label for="FirstName">First Name:</label>
-                <input type="text" name="" id="FirstName">
+                <input type="text" name="" id="FirstName" class="form">
+                <p id="input"></p>
     <br>
     <br>
                 <label for="LastName">Last Name:</label>
-                <input type="text" name="" id="LastName">
-            </section>
+                <input type="text" name="" id="LastName" class="form">
     <br>
     <br>
-            <section id="Em">
-                <label for="Email">Email:</label>
-                <input type="email">
-            </section>
-    <br>
-    <br>
-            <section id="ConT">
-                <label for="contactBack">Can we Email you back?</label>
+    <label for="contactBack">Can we Email you back?</label>
     <br>
                 <label for="yes">Yes</label>
                 <input type="radio" name="contactt" id="yes">
                 <label for="no">No</label>
                 <input type="radio" name="contactt" id="no">
-            </section>
     <br>
     <br>
-            <section id="commen">
+                <label for="Email">Email:</label>
+                <input type="email">
+    <br>
+    <br>
                 <label for="comments">Comments:</label><br>
                 <textarea name="" id="" cols="30" rows="10" maxlength="300">Write your comment here.</textarea>
-            </section>
     <br>
     <br>
-            <section id="sub">
-                <input type="submit">
-            </section>
+                <input type="submit" onclick="myFunction()">
+    <br>
+    <br>
         </form>
     </div>
+    <div class="col-sm-2"></div>
     <div>
         <footer>
             <p>Tracy Fraatz | 2021</p> 
@@ -86,6 +81,7 @@
         </footer>
     </div>
     <div>
+        <script src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </div>
 </body>
